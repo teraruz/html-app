@@ -14,7 +14,7 @@ env:
 
 jobs: 
   job-1:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     environment: development
     env:
       PHONE: '0112223333'
@@ -24,7 +24,7 @@ jobs:
       - run: echo "SHA = ${{ github.actor }} ${{ env.PHONE }}"
       - run: echo "SERVER IP = ${{ vars.SERVER_IP_PRODUCTION }}"
   job-2:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     environment: production
     steps:
       - run: echo "HELLO ${{ env.COMPANY_NAME }}"
