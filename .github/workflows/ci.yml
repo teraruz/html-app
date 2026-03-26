@@ -1,0 +1,19 @@
+name: git Workshop Demo
+
+on:
+  push:
+    branches:
+        -'feature/**'
+        -'bugfix/**'
+        -'hotfix/**'
+
+jobs: 
+  job-1:
+    runs-on: ubantu-latest
+    steps:
+        - run: echo "Hello Github Actions"
+
+
+
+
+    
