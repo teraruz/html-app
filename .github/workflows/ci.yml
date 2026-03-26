@@ -3,9 +3,9 @@ name: Git Workshop Demo
 on:
   push:
     branches:
-        -'feature/**'
-        -'bugfix/**'
-        -'hotfix/**'
+      - 'feature/**'
+      - 'bugfix/**'
+      - 'hotfix/**'
 
 jobs: 
   job-1:
