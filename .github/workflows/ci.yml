@@ -11,7 +11,7 @@ jobs:
   job-1:
     runs-on: ubantu-latest
     steps:
-        - run: echo "Hello Github Actions"
+      - run: echo "Hello Github Actions"
 
 
 
